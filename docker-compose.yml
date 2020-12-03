@@ -1,0 +1,56 @@
+version: "3"
+services:
+  app:                         # アプリケーションサーバ用コンテナ
+    build:
+      context: ./docker/php
+      args:
+        - TZ=${TZ}
+    volumes:
+      - ./src:/work
+      - ./logs:/var/log/php
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+    working_dir: /work
+    environment:
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_DATABASE=${DB_NAME}
+      - DB_USERNAME=${DB_USER}
+      - DB_PASSWORD=${DB_PASS}
+      - TZ=${TZ}
+  web:                       # Webサーバ用コンテナ
+    image: nginx:1.17-alpine
+    depends_on:
+      - app
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/work
+      - ./logs:/var/log/nginx
+      - ./docker/nginx/:/etc/nginx/conf.d
+    environment:
+      - TZ=${TZ}
+  db:                           # DBサーバ用コンテナ
+    build: ./docker/mysql
+    volumes:
+      - db-store:/var/lib/mysql-files
+      - ./logs:/var/log/mysql
+      - ./mysql/conf.d:/etc/mysql/conf.d
+    environment:
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASS}
+      - MYSQL_ROOT_PASSWORD=${DB_PASS}
+      - TZ=${TZ}
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    ports: ["4040:80"]
+    depends_on: ["db"]
+    volumes:
+      - ./phpmyadmin/sessions:/sessions
+
+volumes:
+  db-store:

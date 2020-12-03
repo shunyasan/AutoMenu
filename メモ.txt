@@ -1,0 +1,4 @@
+migration時
+
+ユーザーのプラグインをmysql_native_passwordに変更する必要がある
+
