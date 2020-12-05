@@ -30,3 +30,111 @@
 [30-Nov-2020 14:56:32 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /work/app/Http/Controllers/MenuController.php on line 11
 [01-Dec-2020 17:04:59 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /work/app/Http/Controllers/MenuController.php on line 78
 [01-Dec-2020 17:10:52 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /work/app/Http/Controllers/MenuController.php on line 78
+[05-Dec-2020 13:40:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:40:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:40:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:40:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:41:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:41:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:43:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:43:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:46:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:46:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:46:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[05-Dec-2020 13:46:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
+#6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
