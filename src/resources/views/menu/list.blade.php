@@ -28,16 +28,16 @@
         @guest
         @else
 
-        @if($menu->users()->where('user_id', Auth::user()->id)->exists())
+        @if($menu->users()->where('user_id',Auth::user()->id)->exists())
         <!--action -->
         <form class="form_favo" method="POST" action="{{ route('unfavorite',$menu) }}">
           @csrf
-          <button class="favorite_list" type="submit" name="unfavorite">やめる</button>
+          <button class="favorite_list" type="submit">やめる</button>
         </form>
         @else
         <form class="form_favo" method="POST" action="{{ route('favorite',$menu) }}">
           @csrf
-          <button class="favorite_list" type="submit" name="favorite">お気に入り</button>
+          <button class="favorite_list" type="submit">お気に入り</button>
         </form>
         @endif
         @endguest
