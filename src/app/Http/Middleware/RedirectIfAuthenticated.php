@@ -19,7 +19,7 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
 
-            return redirect(route('favorite'));
+            return redirect(route('top'));
         }
 
         return $next($request);
