@@ -12,6 +12,10 @@ a{
   text-decoration: none;
 }
 
+a:visited{
+  color:#fff;
+}	
+
 p{
   margin: 0;
 }
@@ -59,8 +63,13 @@ button{
   margin-left: 0.5em;
 }
 
-.top-menu:visited{
+a.top-menu:visited{
   color: #fff;
+}
+
+a.top-menu:hover{
+  text-decoration: underline;
+  color:#fff;
 }
 
 

@@ -75,7 +75,7 @@ class MenuController extends Controller
     public function exeFavorite(Menu $menu){
       if(Auth::check()){
         $user = Auth::user();
-        $user->menus()->syncWithoutDetaching([$menu->id,$user->id]);
+        $user->menus()->syncWithoutDetaching([$menu->id]);
         return redirect(route('list'));
       }else {
         \Session::flash('coution','お気に入りはユーザ登録の必要があります');
