@@ -139,3 +139,5 @@ Stack trace:
 #5 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(176): Illuminate\Container\Container->offsetGet('view')
 #6 /work/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Support\Facades\ in /work/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
 [06-Dec-2020 15:56:35 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /work/storage/framework/views/c584b4a227fac6fb11b4fa6ea7557c7df2210e75.php on line 32
+[15-Dec-2020 18:46:36 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in /work/app/Http/Controllers/MenuController.php on line 204
+[15-Dec-2020 18:48:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in /work/app/Http/Controllers/MenuController.php on line 204

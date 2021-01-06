@@ -1,5 +1,10 @@
 <nav>
   <div class="header-all">
+    <div class="">
+      <a href="{{ route(('top')) }}" class="top-logo">
+        <img src="{{ asset('images/AutoMenu_1.jpg') }}" alt="AutoMenu">
+      </a>
+    </div>
     <div class="header-top">
       <a href="{{ route('top') }}" class="top-menu">メニューを決める</a>
       <a href="{{ route('list') }}" class="top-menu">メニュー一覧</a>
