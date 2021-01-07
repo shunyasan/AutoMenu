@@ -9,6 +9,7 @@
 @endif
 <div class="top-all">
   <div class="top-wrap">
+<<<<<<< HEAD
     <div class="top-title">
       <h1 >今日の食事は決まりましたか？</h1>
       <img src="{{ asset('images/top-image.jpeg') }}" alt="topImg" class="top-img">
@@ -23,6 +24,10 @@
     <div class="top-button">
       <button class="decide" type="button" name="button" onclick="location.href='{{ route('random') }}'">決める</button>
     </div>
+=======
+    <h1 class="top-title">献立を自動作成します</h1>
+    <button class="decide" type="button" name="button" onclick="location.href='{{ route('random') }}'">決める</button>
+>>>>>>> origin/master
   </div>
 </div>
 

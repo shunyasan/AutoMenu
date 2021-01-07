@@ -1,6 +1,6 @@
 version: "3"
 services:
-  app:                         # アプリケーションサーバ用コンテナ
+  app:
     build:
       context: ./docker/php
       args:
@@ -17,7 +17,7 @@ services:
       - DB_USERNAME=${DB_USER}
       - DB_PASSWORD=${DB_PASS}
       - TZ=${TZ}
-  web:                       # Webサーバ用コンテナ
+  web:
     image: nginx:1.17-alpine
     depends_on:
       - app
@@ -29,7 +29,7 @@ services:
       - ./docker/nginx/:/etc/nginx/conf.d
     environment:
       - TZ=${TZ}
-  db:                           # DBサーバ用コンテナ
+  db:
     build: ./docker/mysql
     volumes:
       - db-store:/var/lib/mysql-files
