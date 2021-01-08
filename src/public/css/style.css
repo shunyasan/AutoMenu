@@ -14,7 +14,7 @@ a{
 
 a:visited{
   color:#fff;
-}	
+}
 
 p{
   margin: 0;
@@ -30,6 +30,7 @@ main{
 
 button{
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .top-logo img{
@@ -88,26 +89,34 @@ a.top-menu:hover{
   margin: 0 auto;
 }
 
-.top-title{
-  text-align: center;
+.top-image{
   position: relative;
+  background-image: url(../imgLayout/top-image.jpeg);
+  background-size: cover;
   margin-bottom: 5em;
-}
-
-.top-title h1{
-  position: absolute;
-  top: 5%;
-  left: 10%;
-  border: 3px solid #fff;
-  color: #fff;
-  padding: 13px;
+  height: 43em;
   z-index: 100;
 }
 
-.top-img{
+.top-image h1{
   display: inline-block;
-  opacity: 0.8;
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 13px 23px;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.img-filter{
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  z-index: 200;
+  height: 100%;
   width: 100%;
+}
+
+.img-filter{
+  color: #e9e9e9;
 }
 
 .top-middle{
@@ -140,6 +149,39 @@ button.decide:active{
 }
 
 /*///////////// menu.list and menu.favolist////////////*/
+
+.list-image{
+  position: relative;
+  background-image: url(../imgLayout/list-image.jpeg);
+  background-size: cover;
+  margin-bottom: 5em;
+  height: 30em;
+  z-index: 100;
+}
+
+.favo-image{
+  position: relative;
+  background-image: url(../imgLayout/favo-image.jpeg);
+  background-size: cover;
+  margin-bottom: 5em;
+  height: 30em;
+  z-index: 100;
+}
+
+.list-page-name{
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.list-page-name p{
+  margin-left:1em;
+}
+
+.list-all{
+  width: 80%;
+  margin: 2em auto;
+}
+
 .list-items{
   display: flex;
   flex-direction: row;
@@ -165,10 +207,6 @@ button.decide:active{
   width: 16em;
 }
 
-.list-all{
-  width: 80%;
-  margin: 2em auto;
-}
 .form_favo{
   text-align: center;
 }
@@ -250,6 +288,14 @@ button.delete{
 }
 
 /*///////////// menu.create ////////////*/
+.create-image{
+  position: relative;
+  background-image: url(../imgLayout/create-image.jpeg);
+  background-size: cover;
+  margin-bottom: 5em;
+  height: 30em;
+  z-index: 100;
+}
 
 .create-all{
   width: 70%;
