@@ -21,7 +21,9 @@
     </ul>
   </div>
   <div class="top-button">
-    <button class="decide" type="button" name="button" onclick="location.href='{{ route('random') }}'">献立を決める</button>
+    <button class="decide" type="button" name="button" onclick="location.href='{{ route('random') }}'">
+      献立を作成
+    </button>
   </div>
 </div>
 
